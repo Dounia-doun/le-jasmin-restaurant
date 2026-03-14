@@ -5,6 +5,7 @@ export default function Reservation() {
     name: '',
     phone: '',
     date: '',
+    
     time: '',
     guests: '2',
     location: 'Annaba',
