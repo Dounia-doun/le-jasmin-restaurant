@@ -1,8 +1,7 @@
 import React from 'react'
 
 export default function QRSection() {
-  // Utilise ton IP locale
-  const menuUrl = encodeURIComponent('http://192.168.100.15:5173/#menu')
+  const menuUrl = encodeURIComponent(typeof window !== 'undefined' ? window.location.origin + '/#menu' : 'https://lejasmin.dz/#menu')
   const qrUrl = `https://api.qrserver.com/v1/create-qr-code/?size=220x220&data=${menuUrl}&color=4e5c31&bgcolor=f5f0dc`
 
   return (
@@ -12,7 +11,6 @@ export default function QRSection() {
       position: 'relative',
       overflow: 'hidden',
     }}>
-      {/* Decorative circles */}
       <div style={{ position: 'absolute', top: '-100px', right: '-100px', width: '400px', height: '400px', borderRadius: '50%', border: '2px solid rgba(255,255,255,0.05)' }} />
       <div style={{ position: 'absolute', bottom: '-150px', left: '-150px', width: '500px', height: '500px', borderRadius: '50%', border: '2px solid rgba(255,255,255,0.04)' }} />
       <div style={{ position: 'absolute', top: '50%', left: '50%', transform: 'translate(-50%, -50%)', width: '600px', height: '600px', borderRadius: '50%', border: '1px solid rgba(160,140,58,0.08)' }} />
@@ -24,7 +22,6 @@ export default function QRSection() {
           gap: '4rem',
           alignItems: 'center',
         }}>
-          {/* Text */}
           <div>
             <p style={{ fontFamily: "'Lato', sans-serif", fontSize: '0.85rem', letterSpacing: '4px', textTransform: 'uppercase', color: 'var(--gold)', fontWeight: '700', marginBottom: '1rem' }}>
               Menu Digital
@@ -63,7 +60,6 @@ export default function QRSection() {
             </div>
           </div>
 
-          {/* QR Code */}
           <div style={{ display: 'flex', justifyContent: 'center' }}>
             <div style={{
               background: 'var(--beige)',
@@ -76,7 +72,7 @@ export default function QRSection() {
               boxShadow: '0 20px 60px rgba(0,0,0,0.3)',
               border: '1px solid rgba(160,140,58,0.3)',
             }}>
-              <img src="/Public/images/logo.png" alt="Le Jasmin" style={{ height: '60px', width: 'auto' }} />
+              <img src="/public/images/logo.png" alt="Le Jasmin" style={{ height: '60px', width: 'auto' }} />
               <div style={{ width: '2px', height: '20px', background: 'linear-gradient(180deg, var(--gold), transparent)' }} />
 
               <div style={{

@@ -86,7 +86,7 @@ export default function About() {
               aspectRatio: '4/3',
             }}>
               <img
-                src="/public/images/hero1.jpg"
+                src="/public/images/hero7.jpg"
                 alt="Intérieur du restaurant Le Jasmin"
                 style={{ width: '100%', height: '100%', objectFit: 'cover', display: 'block' }}
               />
