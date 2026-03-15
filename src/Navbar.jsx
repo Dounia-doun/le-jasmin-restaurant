@@ -36,7 +36,7 @@ export default function Navbar({ scrolled }) {
       }}>
         {/* Logo avec le bon chemin */}
         <a href="#accueil" style={{ display: 'flex', alignItems: 'center' }}>
-          <img src="/images/logo.png" alt="Le Jasmin" style={{
+          <img src="../images/logo.png" alt="Le Jasmin" style={{
             height: scrolled ? '36px' : '46px',
             width: 'auto',
             transition: 'height 0.4s ease',

@@ -17,7 +17,7 @@ export default function Footer() {
         }}>
           {/* Brand */}
           <div>
-            <img src="/images/logo.png" alt="Le Jasmin" style={{ height: '80px', width: 'auto', marginBottom: '1.25rem', filter: 'brightness(1.1)' }} />
+            <img src="../images/logo.png" alt="Le Jasmin" style={{ height: '80px', width: 'auto', marginBottom: '1.25rem', filter: 'brightness(1.1)' }} />
             <p style={{ fontSize: '0.9rem', lineHeight: '1.8', color: 'rgba(255,255,255,0.6)', maxWidth: '260px' }}>
               Restaurant élégant proposant une cuisine méditerranéenne raffinée dans deux établissements en Algérie.
             </p>
@@ -149,7 +149,7 @@ export default function Footer() {
             © {new Date().getFullYear()} Le Jasmin. Tous droits réservés.
           </p>
           <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
-            <img src="/images/logo.png" alt="Le Jasmin" style={{ height: '28px', opacity: 0.5 }} />
+            <img src="./images/logo.png" alt="Le Jasmin" style={{ height: '28px', opacity: 0.5 }} />
             <span style={{ fontSize: '0.8rem', color: 'rgba(255,255,255,0.3)', fontStyle: 'italic', fontFamily: "'Playfair Display', serif" }}>
               L'art de bien manger
             </span>
