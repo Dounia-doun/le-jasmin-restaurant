@@ -72,7 +72,7 @@ export default function QRSection() {
               boxShadow: '0 20px 60px rgba(0,0,0,0.3)',
               border: '1px solid rgba(160,140,58,0.3)',
             }}>
-              <img src="/public/images/logo.png" alt="Le Jasmin" style={{ height: '60px', width: 'auto' }} />
+              <img src="/images/logo.png" alt="Le Jasmin" style={{ height: '60px', width: 'auto' }} />
               <div style={{ width: '2px', height: '20px', background: 'linear-gradient(180deg, var(--gold), transparent)' }} />
 
               <div style={{
