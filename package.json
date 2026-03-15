@@ -1,24 +1,22 @@
 {
-  "name": "app",
+  "name": "le-jasmin-restaurant",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Site web du restaurant Le Jasmin - Annaba & Guelma",
+  "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://t:eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJvcmNoaWRzIiwic3ViIjoiQHBpZXJyZS9zdG9yYWdlIiwicmVwbyI6IjM5MmNmODAzLTE1ZGMtNGFlYy05MThkLTIzYzI1ZWQxZTZjZCIsInNjb3BlcyI6WyJnaXQ6cmVhZCIsImdpdDp3cml0ZSJdLCJpYXQiOjE3NzM0ODQzMjcsImV4cCI6MTgwNDU4ODMyN30.D3NQnuSi7LXn4cJF_mEppdZ3Ws9VIZ3klBFhvf39atjLzaA7KGWL1K38OqzfLr90J6M6hL3yg0jMOFGUOpyMyA@orchids.code.storage/392cf803-15dc-4aec-918d-23c25ed1e6cd.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "dependencies": {
-    "@vitejs/plugin-react": "^6.0.1",
     "react": "^19.2.4",
-    "react-dom": "^19.2.4",
+    "react-dom": "^19.2.4"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^6.0.1",
     "vite": "^8.0.0"
-  }
+  },
+  "keywords": ["restaurant", "react", "vite", "algérie"],
+  "author": "Dounia-doun",
+  "license": "ISC"
 }
