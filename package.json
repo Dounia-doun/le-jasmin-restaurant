@@ -4,7 +4,7 @@
   "description": "Site web du restaurant Le Jasmin - Annaba & Guelma",
   "type": "module",
   "scripts": {
-    "dev": "vite",
+    "dev": "vite build",
     "build": "node node_modules/.bin/vite build",
     "preview": "vite preview"
   },
