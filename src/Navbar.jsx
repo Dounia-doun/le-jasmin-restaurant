@@ -34,14 +34,8 @@ export default function Navbar({ scrolled }) {
         height: scrolled ? '58px' : '70px',
         transition: 'height 0.4s ease',
       }}>
-        {/* Logo - CHEMIN CORRIGÉ */}
-        <a href="#accueil" style={{ display: 'flex', alignItems: 'center' }}>
-          <img src="/images/logo.png" alt="Le Jasmin" style={{
-            height: scrolled ? '36px' : '46px',
-            width: 'auto',
-            transition: 'height 0.4s ease',
-          }} />
-        </a>
+        {/* ESPACE VIDE À LA PLACE DU LOGO (optionnel) */}
+        <div style={{ width: '46px' }}></div>
 
         {/* Desktop Links */}
         <div style={{ display: 'flex', gap: '2rem', alignItems: 'center' }} className="desktop-nav">
