@@ -8,6 +8,7 @@ import Locations from './Locations'
 import QRSection from './QRSection'
 import Reservation from './Reservation'
 import Footer from './Footer'
+
 export default function App() {
   const [scrolled, setScrolled] = useState(false)
 

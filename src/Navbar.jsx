@@ -34,14 +34,16 @@ export default function Navbar({ scrolled }) {
         height: scrolled ? '58px' : '70px',
         transition: 'height 0.4s ease',
       }}>
+        {/* Logo */}
         <a href="#accueil" style={{ display: 'flex', alignItems: 'center' }}>
-          <img src="/public/images/logo.png" alt="Le Jasmin" style={{
+          <img src="/images/logo.png" alt="Le Jasmin" style={{
             height: scrolled ? '36px' : '46px',
             width: 'auto',
             transition: 'height 0.4s ease',
           }} />
         </a>
 
+        {/* Desktop Links */}
         <div style={{ display: 'flex', gap: '2rem', alignItems: 'center' }} className="desktop-nav">
           {links.map(link => (
             <a key={link.href} href={link.href} style={{
@@ -81,6 +83,7 @@ export default function Navbar({ scrolled }) {
           </a>
         </div>
 
+        {/* Hamburger */}
         <button onClick={() => setOpen(!open)} style={{
           display: 'none',
           flexDirection: 'column',
@@ -101,6 +104,7 @@ export default function Navbar({ scrolled }) {
         </button>
       </div>
 
+      {/* Mobile Menu */}
       {open && (
         <div style={{
           background: 'rgba(245,240,220,0.99)',
