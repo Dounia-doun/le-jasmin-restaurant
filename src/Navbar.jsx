@@ -35,13 +35,13 @@ export default function Navbar({ scrolled }) {
         transition: 'height 0.4s ease',
       }}>
         {/* Logo avec le bon chemin */}
-        <a href="#accueil" style={{ display: 'flex', alignItems: 'center' }}>
-          <img src="/le-jasmin-restaurant/logo.png"alt="Le Jasmin" style={{
-            height: scrolled ? '36px' : '46px',
-            width: 'auto',
-            transition: 'height 0.4s ease',
-          }} />
-        </a>
+       <a href="#accueil" style={{ display: 'flex', alignItems: 'center' }}>
+  <img src="/le-jasmin-restaurant/logo.png" alt="Le Jasmin" style={{
+    height: scrolled ? '36px' : '46px',
+    width: 'auto',
+    transition: 'height 0.4s ease',
+  }} />
+</a>
 
         {/* Desktop Links */}
         <div style={{ display: 'flex', gap: '2rem', alignItems: 'center' }} className="desktop-nav">
