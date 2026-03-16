@@ -72,18 +72,7 @@ export default function Hero() {
         maxWidth: '800px',
         animation: 'fadeInUp 1s ease',
       }}>
-        {/* Logo */}
-        <div style={{
-          display: 'flex',
-          justifyContent: 'center',
-          marginBottom: '1.5rem',
-        }}>
-          <img src="/le-jasmin-restaurant/logo.png" alt="Le Jasmin" style={{
-            height: '80px',
-            width: 'auto',
-            filter: 'drop-shadow(0 4px 20px rgba(0,0,0,0.5))',
-          }} />
-        </div>
+       {/* Logo central supprimé */}
 
         {/* Slogan */}
         <h1 key={current} style={{
