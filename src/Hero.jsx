@@ -78,7 +78,7 @@ export default function Hero() {
           justifyContent: 'center',
           marginBottom: '1.5rem',
         }}>
-          <img src="/public../images/logo.png" alt="Le Jasmin" style={{
+          <img src="/le-jasmin-restaurant/logo.png" alt="Le Jasmin" style={{
             height: '80px',
             width: 'auto',
             filter: 'drop-shadow(0 4px 20px rgba(0,0,0,0.5))',
