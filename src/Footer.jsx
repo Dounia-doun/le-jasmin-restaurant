@@ -15,9 +15,19 @@ export default function Footer() {
           paddingBottom: '3rem',
           borderBottom: '1px solid rgba(255,255,255,0.1)',
         }}>
-          {/* Brand */}
+          {/* Brand - PREMIER LOGO */}
           <div>
-          <img src="/le-jasmin-restaurant/logo.png" alt="Le Jasmin" style={{ height: '80px', width: 'auto', marginBottom: '1.25rem', filter: 'brightness(1.1)' }} />
+            <img 
+              src="/le-jasmin-restaurant/images/logo.png" 
+              alt="Le Jasmin" 
+              style={{ 
+                height: '80px', 
+                width: 'auto', 
+                marginBottom: '1.25rem', 
+                filter: 'brightness(1.1)',
+                display: 'block'
+              }} 
+            />
             <p style={{ fontSize: '0.9rem', lineHeight: '1.8', color: 'rgba(255,255,255,0.6)', maxWidth: '260px' }}>
               Restaurant élégant proposant une cuisine méditerranéenne raffinée dans deux établissements en Algérie.
             </p>
@@ -136,7 +146,7 @@ export default function Footer() {
           </div>
         </div>
 
-        {/* Bottom bar */}
+        {/* Bottom bar - DEUXIÈME LOGO */}
         <div style={{
           display: 'flex',
           justifyContent: 'space-between',
@@ -149,7 +159,14 @@ export default function Footer() {
             © {new Date().getFullYear()} Le Jasmin. Tous droits réservés.
           </p>
           <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
-           <img src="/le-jasmin-restaurant/logo.png" alt="Le Jasmin" style={{ height: '28px', opacity: 0.5 }} />
+            <img 
+              src="/le-jasmin-restaurant/images/logo.png" 
+              alt="Le Jasmin" 
+              style={{ 
+                height: '28px', 
+                opacity: 0.5 
+              }} 
+            />
             <span style={{ fontSize: '0.8rem', color: 'rgba(255,255,255,0.3)', fontStyle: 'italic', fontFamily: "'Playfair Display', serif" }}>
               L'art de bien manger
             </span>

@@ -85,7 +85,8 @@ export default function About() {
               boxShadow: '0 20px 60px rgba(0,0,0,0.15)',
               aspectRatio: '4/3',
             }}>
-              <img src="/le-jasmin-restaurant/hero7.png"
+              <img 
+                src="/le-jasmin-restaurant/images/hero7.jpg"
                 alt="Intérieur du restaurant Le Jasmin"
                 style={{ width: '100%', height: '100%', objectFit: 'cover', display: 'block' }}
               />
